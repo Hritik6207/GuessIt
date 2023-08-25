@@ -1,0 +1,57 @@
+@media (max-width:515px) {
+    .contain{
+        height: 32vh;
+    }
+    .contain p{
+        font-size: 0.8em;
+    }
+    #txt{
+        height: 2vh;
+        font-size: small;
+    }
+    #btn{
+        width: 6px;
+        height: 2px;
+        font-size: 8px;
+    }
+}
+@media (max-width:420px) {
+    .contain{
+        height: 29vh;
+    }
+    .contain p{
+        font-size: 0.7em;
+    }
+    #txt{
+        height: 2vh;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    #btn{
+        width: 6px;
+        height: 2px;
+        font-size: 8px;
+    }
+}
+@media (max-width:310px) {
+    .contain{
+        height: 28vh;
+    }
+    .contain p{
+        font-size: 0.6em;
+    }
+    #txt{
+        height: 1.5vh;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    #btn{
+        width: 6px;
+        height: 2px;
+        font-size: 8px;
+    }
+}
